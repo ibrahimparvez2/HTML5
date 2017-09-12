@@ -1,0 +1,252 @@
+/* --------------------------------------------------------------
+-------------LUMIERE FICTIONAL SITE CSSS STYLE
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+/*                  WEBSITE COLOUR SCHEME*/
+
+/*first colour :rgba(195,168,255,1)*/
+/*-second colour rgba(44,31,61,1)
+third colour rgba(55,42,11,1)
+fourth colour rgba #444 for main----------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+MOBILE DEFAULT STYLES - GLOBAL STYLES
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+/* PREVENT ADJUSTMENTS OF THE FONT SIZE AFTER OREINTATION CHANGE TO IE on Windows Phone and IOS*/
+
+html {
+	
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+}
+
+
+/* Apply a natural box style to all elements */
+
+* {
+	
+	-webkit-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+	
+}
+
+img, video {
+	
+	width: 100%;
+	
+}
+
+body{
+	
+	font-family: 'Mukta', sans-serif;
+	font-size: 75%;
+/*	font-size: 16px altenative way*/
+	color: #444;
+	width:100%;
+	margin:0;
+	padding:0;
+	overflow-x:hidden;
+}
+
+.container {
+	
+	width: 80%;
+	height: 100%;
+	margin: 100px auto;
+/*	margin: 100px auto 100px auto;*/
+	
+/*	the above will center the container contents*/
+		
+}
+
+
+/* ----------------------------------------------------------------------------------------------
+
+-------------------------HOME STYLES
+
+
+-------------------------------------------------------------------------------------------------*/
+
+.HomeBgImage {
+	
+	position: relative;
+	background-image: url(../img/trainerHomePage.jpg);		
+	background-repeat:no-repeat;
+	background-position: center 0;
+	background-size: cover;
+	width:100%;
+	height: auto;
+	border-bottom: 15px solid rgba(53,38,89,0.8);
+	background-attachment: fixed;
+	
+}
+
+.logoC
+{
+	
+	
+	position: absolute;
+	top:3px;
+	left: 10px;
+	width; 45px;
+	z-index: 110;
+
+}
+
+.navC {
+	
+	color: white;
+	height: auto;
+	width: 100%;
+	background-color: rgba(44,31,61,1);
+	position:fixed;
+	border-bottom: 2px solid rgba(194, 166, 255,0.2);
+	z-index: 100;
+	
+	
+}
+
+ul.menu-items {
+	
+	padding-left: 0;
+	margin: 0;
+	
+}
+
+
+nav li a, nav li {
+	color: white;
+	opacity: 1;
+	width: 100%;
+	margin: 0%;
+	padding: 0%;
+	float:none;
+	display: block;
+	outline-style: none;
+	text-decoration: none;
+	
+}
+
+.navBtn {
+	
+	font-size: 2.5em;
+	display: block;
+	width: 20%;
+	margin: 0 20vw 0 70vw;
+	padding: 7px 3%;
+	cursor: pointer;
+	background-color: rgba(0, 0, 0, 0.5);
+	
+	
+}
+
+.menu-items a {
+	
+	padding: 15px 5vw 5px 0;
+	color: white;
+	text-align: center;
+	
+}
+
+.menu-items li{
+	
+	
+	border-top: : 3px solid rbga(194,166,255,0.2);
+		
+}
+
+
+
+
+/*test*/
+h1 {
+	
+	color: orange;
+}
+
+
+		
+
+.exclusive {
+	
+	
+	width: 50%;
+	height:0px;
+    float: right;
+	color: white;
+	font-size: 250%;
+	top: 
+     -webkit-box-sizing: border-box;
+	
+	
+
+	
+}
+
+
+
+/* make website responive when media queries get to particular size number is a breakpoint*/
+/*
+--------------------------------------MOBILE STYLES - 568PX SCREEN RESOLUTION---------------------------------------
+
+*/
+
+@media screen and (min-width: 568px){
+	
+/*
+	h1{
+		
+		color:red;
+	}
+}
+*/
+
+
+/*
+--------------------------------------MOBILE STYLES - 768PX SCREEN RESOLUTION---------------------------------------*/
+
+@media screen and (min-width: 768px){
+	
+/*
+	h1{
+		
+		color:blue;
+	}
+*/
+}
+
+/*
+--------------------------------------MOBILE STYLES - 1024PX SCREEN RESOLUTION---------------------------------------*/
+
+@media screen and (min-width: 1024px){
+	
+/*
+	h1{
+		
+		color:orange;
+	}
+*/
+}
+
+/*
+--------------------------------------MOBILE STYLES - 1080PX SCREEN RESOLUTION---------------------------------------*/
+
+@media screen and (min-width: 1080px){
+	
+/*
+	h1{
+		
+		color:green;
+	}
+*/
+}
